@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>authorisation</title>
+    <link href="cS.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="generalHblock">
+    <label>Авторизация</label>
+    <p>
+        если у вас нету учетной записи авторизуйтесь
+    </p>
+    </div>
+
+    <form id="authorisation">
+        <input type="text" class="authorisOne" id="authorisLogin">
+            <label class="authorisOne">имя пользователя</label>
+            <input type="password" class="authorisTwo" id="authorisPassword" >
+            <label class="authorisTwo" type="password">пароль</label>
+        <button id="createUser" type="submit">создать</button>
+    </form> 
+    <div class="generalHblock">
+    <label>Вход</label>
+    <form id="Login">
+        <input type="text" class="Login" id="PLogin">
+        <label class="LoginOne">имя пользователя</label>
+        <input type="password" type="checkbox" class="LoginTwo" id="LoginPassword" placeholder="👁">
+        <label>пароль</label>
+        <button id="JoinUser" type="submit">Войти</button>
+    </form>
+    </div>
+    
+    <script src="authorisation.js"></script>
+</body>
+</html>
