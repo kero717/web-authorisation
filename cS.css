@@ -1,4 +1,4 @@
-/* ===== Общий сброс и фон ===== */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -17,7 +17,7 @@ body {
     color: #e0e0e0;
 }
 
-/* ===== Заголовок ===== */
+
 .generalHblock {
     text-align: center;
     margin-bottom: 40px;
@@ -41,7 +41,7 @@ body {
     max-width: 400px;
 }
 
-/* ===== Формы ===== */
+
 form {
     width: 100%;
     max-width: 360px;
@@ -60,7 +60,7 @@ form:hover {
     box-shadow: 0 12px 48px rgba(233, 69, 96, 0.2);
 }
 
-/* ===== Поля ввода ===== */
+
 form input {
     width: 100%;
     padding: 12px 16px;
@@ -83,7 +83,6 @@ form input::placeholder {
     color: #555;
 }
 
-/* ===== Метки ===== */
 form label {
     display: block;
     font-size: 12px;
@@ -93,7 +92,7 @@ form label {
     text-transform: uppercase;
 }
 
-/* ===== Кнопки ===== */
+
 form button {
     width: 100%;
     padding: 13px;
@@ -119,9 +118,7 @@ form button:active {
     transform: translateY(0);
 }
 
-/* ===== Классы полей (можно стилизовать отдельно) ===== */
 
-/* ===== Метки с классами ===== */
 .authorisOne + label,
 .authorisTwo + label,
 .Login + label,
@@ -133,7 +130,6 @@ form button:active {
     text-align: right;
 }
 
-/* ===== Адаптив ===== */
 @media (max-width: 480px) {
     .generalHblock label {
         font-size: 28px;
